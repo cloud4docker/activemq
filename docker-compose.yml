@@ -1,7 +1,7 @@
 activemq-service:
   build: ./$AMQ_VERSION
   environment:
-    - TZ=CEST
+    - TZ=UTC
   ports:
     - "8161:8161"
   expose:
