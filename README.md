@@ -86,7 +86,7 @@ can initialize your directories using some intermediate container:
     docker run --user root --rm -ti \
       -v /your/persistent/dir/conf:/mnt/conf \
       -v /your/persistent/dir/data:/mnt/data \
-      rmohr/activemq:5.15.4-alpine /bin/sh
+      teccloud4docker/activemq:5.15.13-alpine /bin/sh
 
 This will bring up a shell, so you can just execute the following commands
 inside this intermediate container to copy the default configuration to your
