@@ -1,7 +1,7 @@
 docker-activemq
 ===============
 
-[![Build Status](https://travis-ci.org/teccloud4docker/docker-activemq.svg?branch=master)](https://travis-ci.org/teccloud4docker/docker-activemq)
+[![Build Status](https://travis-ci.org/tec-cloud/docker-activemq.svg?branch=master)](https://travis-ci.org/tec-cloud/docker-activemq)
 [![Docker Pulls](https://img.shields.io/docker/pulls/teccloud4docker/activemq.svg?maxAge=2592000)](https://hub.docker.com/r/teccloud4docker/activemq/)
 
 [Docker](https://www.docker.io/) file for trusted builds of [ActiveMQ](http://activemq.apache.org/) on https://registry.hub.docker.com/r/teccloud4docker/activemq/ .
