@@ -17,43 +17,6 @@ Image Tags
 ----------
 
     teccloud4docker/activemq:latest (teccloud4docker/activemq:5.15.13)
-    rmohr/activemq:5.10.0
-    rmohr/activemq:5.10.1
-    rmohr/activemq:5.10.2
-    rmohr/activemq:5.11.0
-    rmohr/activemq:5.11.1
-    rmohr/activemq:5.12.0
-    rmohr/activemq:5.12.1
-    rmohr/activemq:5.12.2
-    rmohr/activemq:5.13.0
-    rmohr/activemq:5.13.1
-    rmohr/activemq:5.13.2
-    rmohr/activemq:5.13.3
-    rmohr/activemq:5.13.4
-    rmohr/activemq:5.14.0
-    rmohr/activemq:5.14.0-alpine
-    rmohr/activemq:5.14.1
-    rmohr/activemq:5.14.1-alpine
-    rmohr/activemq:5.14.2
-    rmohr/activemq:5.14.2-alpine
-    rmohr/activemq:5.14.3
-    rmohr/activemq:5.14.3-alpine
-    rmohr/activemq:5.14.4
-    rmohr/activemq:5.14.4-alpine
-    rmohr/activemq:5.14.5
-    rmohr/activemq:5.14.5-alpine
-    rmohr/activemq:5.15.2
-    rmohr/activemq:5.15.2-alpine
-    rmohr/activemq:5.15.3
-    rmohr/activemq:5.15.3-alpine
-    rmohr/activemq:5.15.4
-    rmohr/activemq:5.15.4-alpine
-    rmohr/activemq:5.15.5
-    rmohr/activemq:5.15.5-alpine
-    rmohr/activemq:5.15.6
-    rmohr/activemq:5.15.6-alpine
-    rmohr/activemq:5.15.9
-    rmohr/activemq:5.15.9-alpine
     teccloud4docker/activemq:5.15.13
     teccloud4docker/activemq:5.15.13-alpine
 
@@ -62,10 +25,10 @@ Port Map
 
     61616 JMS
     8161  UI
-    5672  AMQP  (since `rmohr/activemq:5.12.1`)
-    61613 STOMP (since `rmohr/activemq:5.12.1`)
-    1883  MQTT  (since `rmohr/activemq:5.12.1`)
-    61614 WS    (since `rmohr/activemq:5.12.1`)
+    5672  AMQP  (since `5.12.1`)
+    61613 STOMP (since `5.12.1`)
+    1883  MQTT  (since `5.12.1`)
+    61614 WS    (since `5.12.1`)
 
 Customizing configuration and persistence location
 --------------------------------------------------
