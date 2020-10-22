@@ -2,21 +2,21 @@ docker-activemq
 ===============
 
 [![Build Status](https://travis-ci.org/rmohr/docker-activemq.svg?branch=master)](https://travis-ci.org/rmohr/docker-activemq)
-[![Docker Pulls](https://img.shields.io/docker/pulls/rmohr/activemq.svg?maxAge=2592000)](https://hub.docker.com/r/rmohr/activemq/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/teccloud4docker/activemq.svg?maxAge=2592000)](https://hub.docker.com/r/teccloud4docker/activemq/)
 
-[Docker](https://www.docker.io/) file for trusted builds of [ActiveMQ](http://activemq.apache.org/) on https://registry.hub.docker.com/u/rmohr/activemq/.
+[Docker](https://www.docker.io/) file for trusted builds of [ActiveMQ](http://activemq.apache.org/) on https://registry.hub.docker.com/r/teccloud4docker/activemq/ .
 
 Run the latest container with:
 
-    docker pull rmohr/activemq
-    docker run -p 61616:61616 -p 8161:8161 rmohr/activemq
+    docker pull teccloud4docker/activemq
+    docker run -p 61616:61616 -p 8161:8161 teccloud4docker/activemq
 
 The JMX broker listens on port 61616 and the Web Console on port 8161.
 
 Image Tags
 ----------
 
-    rmohr/activemq:latest (rmohr/activemq:5.15.9)
+    teccloud4docker/activemq:latest (teccloud4docker/activemq:5.15.13)
     rmohr/activemq:5.10.0
     rmohr/activemq:5.10.1
     rmohr/activemq:5.10.2
@@ -54,6 +54,8 @@ Image Tags
     rmohr/activemq:5.15.6-alpine
     rmohr/activemq:5.15.9
     rmohr/activemq:5.15.9-alpine
+    teccloud4docker/activemq:5.15.13
+    teccloud4docker/activemq:5.15.13-alpine
 
 Port Map
 --------
@@ -74,7 +76,7 @@ files you can mount these directories to directories on your host system:
     docker run -p 61616:61616 -p 8161:8161 \
                -v /your/persistent/dir/conf:/opt/activemq/conf \
                -v /your/persistent/dir/data:/opt/activemq/data \
-               rmohr/activemq
+               teccloud4docker/activemq
 
 ActiveMQ expects that some configuration files already exists, so they won't be
 created automatically, instead you have to create them on your own before
