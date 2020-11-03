@@ -16,9 +16,11 @@ The JMX broker listens on port 61616 and the Web Console on port 8161.
 Image Tags
 ----------
 
-    cloud4docker/activemq:latest (cloud4docker/activemq:5.15.13)
+    cloud4docker/activemq:latest (cloud4docker/activemq:5.16.0)
     cloud4docker/activemq:5.15.13
     cloud4docker/activemq:5.15.13-alpine
+    cloud4docker/activemq:5.16.0
+    cloud4docker/activemq:5.16.0-alpine
 
 Port Map
 --------
